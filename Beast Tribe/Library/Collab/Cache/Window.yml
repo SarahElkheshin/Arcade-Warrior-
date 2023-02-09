@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Animations.meta
+    - Assets/Assets.index
+    - Assets/Assets.index.meta
+    - Assets/FST.meta
+    - Assets/FST/Gladiators Low Poly Arena.meta
+    - Assets/FST/Gladiators Low Poly Arena/Gladiator Low Poly Arena.fbx
+    - Assets/FST/Gladiators Low Poly Arena/Gladiator Low Poly Arena.fbx.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials/ArenaGate.mat
+    - Assets/FST/Gladiators Low Poly Arena/Materials/ArenaGate.mat.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials/ArenaMaterial.mat
+    - Assets/FST/Gladiators Low Poly Arena/Materials/ArenaMaterial.mat.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials/Flag.mat
+    - Assets/FST/Gladiators Low Poly Arena/Materials/Flag.mat.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials/FlagPoleMaterial.mat
+    - Assets/FST/Gladiators Low Poly Arena/Materials/FlagPoleMaterial.mat.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials/MechanismMaterial.mat
+    - Assets/FST/Gladiators Low Poly Arena/Materials/MechanismMaterial.mat.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials/PillarsMaterial.mat
+    - Assets/FST/Gladiators Low Poly Arena/Materials/PillarsMaterial.mat.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials/WoodSpike.mat
+    - Assets/FST/Gladiators Low Poly Arena/Materials/WoodSpike.mat.meta
+    - Assets/FST/Gladiators Low Poly Arena/Materials/plane.mat
+    - Assets/FST/Gladiators Low Poly Arena/Materials/plane.mat.meta
+    - Assets/FST/Gladiators Low Poly Arena/Prefabs.meta
+    - Assets/FST/Gladiators Low Poly Arena/Prefabs/Gladiator Low Poly Arena.prefab
+    - Assets/FST/Gladiators Low Poly Arena/Prefabs/Gladiator Low Poly Arena.prefab.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Arena-AO.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Arena-AO.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Arena-Albedo.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Arena-Albedo.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Arena-NM.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Arena-NM.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/FlagPole-AO.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/FlagPole-AO.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/FlagPole-Albedo.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/FlagPole-Albedo.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/FlagPole-NM.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/FlagPole-NM.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Flags-AO.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Flags-AO.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Flags-Albedo.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Flags-Albedo.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Flags-NM.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Flags-NM.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/GateArena-AO.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/GateArena-AO.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/GateArena-Albedo.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/GateArena-Albedo.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/GateArena-NM.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/GateArena-NM.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Mechanism-AO.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Mechanism-AO.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Mechanism-Albedo.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Mechanism-Albedo.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Mechanism-NM.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Mechanism-NM.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Pillars-AO.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Pillars-AO.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Pillars-Albedo.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Pillars-Albedo.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Pillars-NM.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/Pillars-NM.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/WoodSpikes-AO.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/WoodSpikes-AO.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/WoodSpikes-Albedo.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/WoodSpikes-Albedo.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/Textures/WoodSpikes-NM.png
+    - Assets/FST/Gladiators Low Poly Arena/Textures/WoodSpikes-NM.png.meta
+    - Assets/FST/Gladiators Low Poly Arena/_DemoScene.unity
+    - Assets/FST/Gladiators Low Poly Arena/_DemoScene.unity.meta
+    - Assets/Meshtint Free Barbarian.meta
+    - Assets/Meshtint Free Barbarian/FBX.meta
+    - Assets/Meshtint Free Barbarian/FBX/Barbarian Wyder.FBX
+    - Assets/Meshtint Free Barbarian/FBX/Barbarian Wyder.FBX.meta
+    - Assets/Meshtint Free Barbarian/FBX/Hammer.FBX
+    - Assets/Meshtint Free Barbarian/FBX/Hammer.FBX.meta
+    - Assets/Meshtint Free Barbarian/FBX/Materials.meta
+    - Assets/Meshtint Free Barbarian/FBX/Materials/BarbarianWyderWF.mat
+    - Assets/Meshtint Free Barbarian/FBX/Materials/BarbarianWyderWF.mat.meta
+    - Assets/Meshtint Free Barbarian/FBX/Shield.FBX
+    - Assets/Meshtint Free Barbarian/FBX/Shield.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported).meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@attack01.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@attack01.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@attack02.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@attack02.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@defend.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@defend.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@die.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@die.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@hit.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@hit.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@idle.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@idle.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@jump.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@jump.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@run.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@run.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@walk.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Animations/Barbarian
+      Wyder@walk.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Controller.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Controller/Barbarian
+      Wyder Controller.controller
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Controller/Barbarian
+      Wyder Controller.controller.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/FBX/Barbarian Wyder.FBX
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/FBX/Barbarian Wyder.FBX.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian
+      Wyder-Blue.prefab
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian
+      Wyder-Blue.prefab.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian
+      Wyder-Gold.prefab
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian
+      Wyder-Gold.prefab.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian
+      Wyder-Green.prefab
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian
+      Wyder-Green.prefab.meta
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian
+      Wyder-Red.prefab
+    - Assets/Meshtint Free Barbarian/Legacy (No longer supported)/Prefabs/Barbarian
+      Wyder-Red.prefab.meta
+    - Assets/Meshtint Free Barbarian/Materials.meta
+    - Assets/Meshtint Free Barbarian/Materials/Barbarian Wyder-Blue.mat
+    - Assets/Meshtint Free Barbarian/Materials/Barbarian Wyder-Blue.mat.meta
+    - Assets/Meshtint Free Barbarian/Materials/Barbarian Wyder-Gold.mat
+    - Assets/Meshtint Free Barbarian/Materials/Barbarian Wyder-Gold.mat.meta
+    - Assets/Meshtint Free Barbarian/Materials/Barbarian Wyder-Green.mat
+    - Assets/Meshtint Free Barbarian/Materials/Barbarian Wyder-Green.mat.meta
+    - Assets/Meshtint Free Barbarian/Materials/Barbarian Wyder-Red.mat
+    - Assets/Meshtint Free Barbarian/Materials/Barbarian Wyder-Red.mat.meta
+    - Assets/Meshtint Free Barbarian/Materials/Demo Ground.mat
+    - Assets/Meshtint Free Barbarian/Materials/Demo Ground.mat.meta
+    - Assets/Meshtint Free Barbarian/PPP.meta
+    - Assets/Meshtint Free Barbarian/PPP/PPP.asset
+    - Assets/Meshtint Free Barbarian/PPP/PPP.asset.meta
+    - Assets/Meshtint Free Barbarian/Prefabs.meta
+    - Assets/Meshtint Free Barbarian/Prefabs/Meshtint Barbarian Blue.prefab
+    - Assets/Meshtint Free Barbarian/Prefabs/Meshtint Barbarian Blue.prefab.meta
+    - Assets/Meshtint Free Barbarian/Prefabs/Meshtint Barbarian Gold.prefab
+    - Assets/Meshtint Free Barbarian/Prefabs/Meshtint Barbarian Gold.prefab.meta
+    - Assets/Meshtint Free Barbarian/Prefabs/Meshtint Barbarian Green.prefab
+    - Assets/Meshtint Free Barbarian/Prefabs/Meshtint Barbarian Green.prefab.meta
+    - Assets/Meshtint Free Barbarian/Prefabs/Meshtint Barbarian Red.prefab
+    - Assets/Meshtint Free Barbarian/Prefabs/Meshtint Barbarian Red.prefab.meta
+    - Assets/Meshtint Free Barbarian/READ ME.meta
+    - Assets/Meshtint Free Barbarian/READ ME/Meshtint Read Me (A2).pdf
+    - Assets/Meshtint Free Barbarian/READ ME/Meshtint Read Me (A2).pdf.meta
+    - Assets/Meshtint Free Barbarian/Scenes.meta
+    - Assets/Meshtint Free Barbarian/Scenes/3rd Person Controller.unity
+    - Assets/Meshtint Free Barbarian/Scenes/3rd Person Controller.unity.meta
+    - Assets/Meshtint Free Barbarian/Scenes/Showcase.unity
+    - Assets/Meshtint Free Barbarian/Scenes/Showcase.unity.meta
+    - Assets/Meshtint Free Barbarian/Textures.meta
+    - Assets/Meshtint Free Barbarian/Textures/BarbarianWyder-Blue.tga
+    - Assets/Meshtint Free Barbarian/Textures/BarbarianWyder-Blue.tga.meta
+    - Assets/Meshtint Free Barbarian/Textures/BarbarianWyder-Gold.tga
+    - Assets/Meshtint Free Barbarian/Textures/BarbarianWyder-Gold.tga.meta
+    - Assets/Meshtint Free Barbarian/Textures/BarbarianWyder-Green.tga
+    - Assets/Meshtint Free Barbarian/Textures/BarbarianWyder-Green.tga.meta
+    - Assets/Meshtint Free Barbarian/Textures/BarbarianWyder-Red.tga
+    - Assets/Meshtint Free Barbarian/Textures/BarbarianWyder-Red.tga.meta
+    - Assets/Meshtint Free Barbarian/UI.meta
+    - Assets/Meshtint Free Barbarian/UI/Canvas.prefab
+    - Assets/Meshtint Free Barbarian/UI/Canvas.prefab.meta
+    - Assets/Meshtint Free Barbarian/WarriorController.controller
+    - Assets/Meshtint Free Barbarian/WarriorController.controller.meta
+    - Assets/Meshtint Free Barbarian/www.meshtint.com.txt
+    - Assets/Meshtint Free Barbarian/www.meshtint.com.txt.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/CharacterAnimations.cs
+    - Assets/Scripts/CharacterAnimations.cs.meta
+    - Assets/Scripts/EnemyFollow.cs
+    - Assets/Scripts/EnemyFollow.cs.meta
+    - Assets/Scripts/HealthBar.cs
+    - Assets/Scripts/HealthBar.cs.meta
+    - Assets/Scripts/PlayerAttackInput.cs
+    - Assets/Scripts/PlayerAttackInput.cs.meta
+    - Assets/Scripts/PlayerHealth.cs
+    - Assets/Scripts/PlayerHealth.cs.meta
+    - Assets/Scripts/PlayerMove.cs
+    - Assets/Scripts/PlayerMove.cs.meta
+    - Assets/Scripts/cameraf.cs
+    - Assets/Scripts/cameraf.cs.meta
+    - Assets/SimpleNaturePack.meta
+    - Assets/SimpleNaturePack/Materials.meta
+    - Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat
+    - Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat.meta
+    - Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
+    - Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat.meta
+    - Assets/SimpleNaturePack/Models.meta
+    - Assets/SimpleNaturePack/Models/Branch_01.fbx
+    - Assets/SimpleNaturePack/Models/Branch_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Bush_01.fbx
+    - Assets/SimpleNaturePack/Models/Bush_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Bush_02.fbx
+    - Assets/SimpleNaturePack/Models/Bush_02.fbx.meta
+    - Assets/SimpleNaturePack/Models/Bush_03.fbx
+    - Assets/SimpleNaturePack/Models/Bush_03.fbx.meta
+    - Assets/SimpleNaturePack/Models/Flowers_01.fbx
+    - Assets/SimpleNaturePack/Models/Flowers_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Flowers_02.fbx
+    - Assets/SimpleNaturePack/Models/Flowers_02.fbx.meta
+    - Assets/SimpleNaturePack/Models/Grass_01.fbx
+    - Assets/SimpleNaturePack/Models/Grass_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Grass_02.fbx
+    - Assets/SimpleNaturePack/Models/Grass_02.fbx.meta
+    - Assets/SimpleNaturePack/Models/Ground_01.fbx
+    - Assets/SimpleNaturePack/Models/Ground_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Ground_02.fbx
+    - Assets/SimpleNaturePack/Models/Ground_02.fbx.meta
+    - Assets/SimpleNaturePack/Models/Ground_03.fbx
+    - Assets/SimpleNaturePack/Models/Ground_03.fbx.meta
+    - Assets/SimpleNaturePack/Models/Mushroom_01.fbx
+    - Assets/SimpleNaturePack/Models/Mushroom_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Mushroom_02.fbx
+    - Assets/SimpleNaturePack/Models/Mushroom_02.fbx.meta
+    - Assets/SimpleNaturePack/Models/Rock_01.fbx
+    - Assets/SimpleNaturePack/Models/Rock_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Rock_02.fbx
+    - Assets/SimpleNaturePack/Models/Rock_02.fbx.meta
+    - Assets/SimpleNaturePack/Models/Rock_03.fbx
+    - Assets/SimpleNaturePack/Models/Rock_03.fbx.meta
+    - Assets/SimpleNaturePack/Models/Rock_04.fbx
+    - Assets/SimpleNaturePack/Models/Rock_04.fbx.meta
+    - Assets/SimpleNaturePack/Models/Rock_05.fbx
+    - Assets/SimpleNaturePack/Models/Rock_05.fbx.meta
+    - Assets/SimpleNaturePack/Models/Stump_01.fbx
+    - Assets/SimpleNaturePack/Models/Stump_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Tree_01.fbx
+    - Assets/SimpleNaturePack/Models/Tree_01.fbx.meta
+    - Assets/SimpleNaturePack/Models/Tree_02.fbx
+    - Assets/SimpleNaturePack/Models/Tree_02.fbx.meta
+    - Assets/SimpleNaturePack/Models/Tree_03.fbx
+    - Assets/SimpleNaturePack/Models/Tree_03.fbx.meta
+    - Assets/SimpleNaturePack/Models/Tree_04.fbx
+    - Assets/SimpleNaturePack/Models/Tree_04.fbx.meta
+    - Assets/SimpleNaturePack/Models/Tree_05.fbx
+    - Assets/SimpleNaturePack/Models/Tree_05.fbx.meta
+    - Assets/SimpleNaturePack/Prefabs.meta
+    - Assets/SimpleNaturePack/Prefabs/Branch_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Branch_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Bush_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Bush_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Bush_02.prefab
+    - Assets/SimpleNaturePack/Prefabs/Bush_02.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Bush_03.prefab
+    - Assets/SimpleNaturePack/Prefabs/Bush_03.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Flowers_02.prefab
+    - Assets/SimpleNaturePack/Prefabs/Flowers_02.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Grass_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Grass_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Grass_02.prefab
+    - Assets/SimpleNaturePack/Prefabs/Grass_02.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Ground_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Ground_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Ground_02.prefab
+    - Assets/SimpleNaturePack/Prefabs/Ground_02.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Ground_03.prefab
+    - Assets/SimpleNaturePack/Prefabs/Ground_03.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab
+    - Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Rock_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Rock_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Rock_02.prefab
+    - Assets/SimpleNaturePack/Prefabs/Rock_02.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
+    - Assets/SimpleNaturePack/Prefabs/Rock_03.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Rock_04.prefab
+    - Assets/SimpleNaturePack/Prefabs/Rock_04.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Rock_05.prefab
+    - Assets/SimpleNaturePack/Prefabs/Rock_05.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Stump_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Stump_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Tree_01.prefab
+    - Assets/SimpleNaturePack/Prefabs/Tree_01.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Tree_02.prefab
+    - Assets/SimpleNaturePack/Prefabs/Tree_02.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Tree_03.prefab
+    - Assets/SimpleNaturePack/Prefabs/Tree_03.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Tree_04.prefab
+    - Assets/SimpleNaturePack/Prefabs/Tree_04.prefab.meta
+    - Assets/SimpleNaturePack/Prefabs/Tree_05.prefab
+    - Assets/SimpleNaturePack/Prefabs/Tree_05.prefab.meta
+    - Assets/SimpleNaturePack/Scenes.meta
+    - Assets/SimpleNaturePack/Scenes/PostProcessing.meta
+    - Assets/SimpleNaturePack/Scenes/PostProcessing/PostProcessing Profile_SimpleNaturePack.asset
+    - Assets/SimpleNaturePack/Scenes/PostProcessing/PostProcessing Profile_SimpleNaturePack.asset.meta
+    - Assets/SimpleNaturePack/Scenes/PostProcessing/Scene Settings Profile_SimpleNaturePack.asset
+    - Assets/SimpleNaturePack/Scenes/PostProcessing/Scene Settings Profile_SimpleNaturePack.asset.meta
+    - Assets/SimpleNaturePack/Scenes/PostProcessing/SimpleNaturePack_HDRP.asset
+    - Assets/SimpleNaturePack/Scenes/PostProcessing/SimpleNaturePack_HDRP.asset.meta
+    - Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity
+    - Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity.meta
+    - Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity
+    - Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity.meta
+    - Assets/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4_v1.22.unitypackage
+    - Assets/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4_v1.22.unitypackage.meta
+    - Assets/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4_v1.22.unitypackage
+    - Assets/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4_v1.22.unitypackage.meta
+    - Assets/SimpleNaturePack/SimpleNaturePack_URP_2019.3_v1.22.unitypackage
+    - Assets/SimpleNaturePack/SimpleNaturePack_URP_2019.3_v1.22.unitypackage.meta
+    - Assets/SimpleNaturePack/Textures.meta
+    - Assets/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png
+    - Assets/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/Bar.png
+    - Assets/Sprites/Bar.png.meta
+    - Assets/Sprites/Heart.png
+    - Assets/Sprites/Heart.png.meta
+    - Assets/Warrior.unity
+    - Assets/Warrior.unity.meta
+    - Assets/X Bot.fbx
+    - Assets/X Bot.fbx.meta
+    - Assets/preFabs.meta
+    - Assets/preFabs/Meshtint Barbarian Blue.prefab
+    - Assets/preFabs/Meshtint Barbarian Blue.prefab.meta
+    - Assets/sheath sword 1.fbx
+    - Assets/sheath sword 1.fbx.meta
+    - Assets/sheath sword 2.fbx
+    - Assets/sheath sword 2.fbx.meta
+    - Assets/sword and shield 180 turn (2).fbx
+    - Assets/sword and shield 180 turn (2).fbx.meta
+    - Assets/sword and shield 180 turn.fbx
+    - Assets/sword and shield 180 turn.fbx.meta
+    - Assets/sword and shield attack (2).fbx
+    - Assets/sword and shield attack (2).fbx.meta
+    - Assets/sword and shield attack (3).fbx
+    - Assets/sword and shield attack (3).fbx.meta
+    - Assets/sword and shield attack (4).fbx
+    - Assets/sword and shield attack (4).fbx.meta
+    - Assets/sword and shield attack.fbx
+    - Assets/sword and shield attack.fbx.meta
+    - Assets/sword and shield block (2).fbx
+    - Assets/sword and shield block (2).fbx.meta
+    - Assets/sword and shield block idle.fbx
+    - Assets/sword and shield block idle.fbx.meta
+    - Assets/sword and shield block.fbx
+    - Assets/sword and shield block.fbx.meta
+    - Assets/sword and shield casting (2).fbx
+    - Assets/sword and shield casting (2).fbx.meta
+    - Assets/sword and shield casting.fbx
+    - Assets/sword and shield casting.fbx.meta
+    - Assets/sword and shield crouch block (2).fbx
+    - Assets/sword and shield crouch block (2).fbx.meta
+    - Assets/sword and shield crouch block idle.fbx
+    - Assets/sword and shield crouch block idle.fbx.meta
+    - Assets/sword and shield crouch block.fbx
+    - Assets/sword and shield crouch block.fbx.meta
+    - Assets/sword and shield crouch idle.fbx
+    - Assets/sword and shield crouch idle.fbx.meta
+    - Assets/sword and shield crouch.fbx
+    - Assets/sword and shield crouch.fbx.meta
+    - Assets/sword and shield crouching (2).fbx
+    - Assets/sword and shield crouching (2).fbx.meta
+    - Assets/sword and shield crouching (3).fbx
+    - Assets/sword and shield crouching (3).fbx.meta
+    - Assets/sword and shield crouching.fbx
+    - Assets/sword and shield crouching.fbx.meta
+    - Assets/sword and shield death (2).fbx
+    - Assets/sword and shield death (2).fbx.meta
+    - Assets/sword and shield death.fbx
+    - Assets/sword and shield death.fbx.meta
+    - Assets/sword and shield idle (2).fbx
+    - Assets/sword and shield idle (2).fbx.meta
+    - Assets/sword and shield idle (3).fbx
+    - Assets/sword and shield idle (3).fbx.meta
+    - Assets/sword and shield idle (4).fbx
+    - Assets/sword and shield idle (4).fbx.meta
+    - Assets/sword and shield idle.fbx
+    - Assets/sword and shield idle.fbx.meta
+    - Assets/sword and shield impact (2).fbx
+    - Assets/sword and shield impact (2).fbx.meta
+    - Assets/sword and shield impact (3).fbx
+    - Assets/sword and shield impact (3).fbx.meta
+    - Assets/sword and shield impact.fbx
+    - Assets/sword and shield impact.fbx.meta
+    - Assets/sword and shield jump (2).fbx
+    - Assets/sword and shield jump (2).fbx.meta
+    - Assets/sword and shield jump.fbx
+    - Assets/sword and shield jump.fbx.meta
+    - Assets/sword and shield kick.fbx
+    - Assets/sword and shield kick.fbx.meta
+    - Assets/sword and shield power up.fbx
+    - Assets/sword and shield power up.fbx.meta
+    - Assets/sword and shield run (2).fbx
+    - Assets/sword and shield run (2).fbx.meta
+    - Assets/sword and shield run.fbx
+    - Assets/sword and shield run.fbx.meta
+    - Assets/sword and shield slash (2).fbx
+    - Assets/sword and shield slash (2).fbx.meta
+    - Assets/sword and shield slash (3).fbx
+    - Assets/sword and shield slash (3).fbx.meta
+    - Assets/sword and shield slash (4).fbx
+    - Assets/sword and shield slash (4).fbx.meta
+    - Assets/sword and shield slash (5).fbx
+    - Assets/sword and shield slash (5).fbx.meta
+    - Assets/sword and shield slash.fbx
+    - Assets/sword and shield slash.fbx.meta
+    - Assets/sword and shield strafe (2).fbx
+    - Assets/sword and shield strafe (2).fbx.meta
+    - Assets/sword and shield strafe (3).fbx
+    - Assets/sword and shield strafe (3).fbx.meta
+    - Assets/sword and shield strafe (4).fbx
+    - Assets/sword and shield strafe (4).fbx.meta
+    - Assets/sword and shield strafe.fbx
+    - Assets/sword and shield strafe.fbx.meta
+    - Assets/sword and shield turn (2).fbx
+    - Assets/sword and shield turn (2).fbx.meta
+    - Assets/sword and shield turn.fbx
+    - Assets/sword and shield turn.fbx.meta
+    - Assets/sword and shield walk (2).fbx
+    - Assets/sword and shield walk (2).fbx.meta
+    - Assets/sword and shield walk.fbx
+    - Assets/sword and shield walk.fbx.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
